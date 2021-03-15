@@ -9,6 +9,8 @@ class Pessoa:
         return f'Olá {id(self)}'
 
 
+
+
 if __name__ == '__main__':
     gregorio = Pessoa(nome='Gregório', idade=3)
     joao = Pessoa(gregorio, nome='João', idade=36)
